@@ -1,0 +1,22 @@
+{
+  "004_blacks_beach_nude_v2.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b6\\004_blacks_beach_nude_v2.jpg",
+    "duration_s": 40.2,
+    "filename": "004_blacks_beach_nude_v2.jpg",
+    "metadata": {
+      "type": "candid",
+      "location": "Blacks Beach golden hour"
+    }
+  },
+  "002_beach_selfie_tongueout_v2.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b6\\002_beach_selfie_tongueout_v2.jpg",
+    "duration_s": 44.6,
+    "filename": "002_beach_selfie_tongueout_v2.jpg",
+    "metadata": {
+      "type": "selfie-pov",
+      "location": "beach"
+    }
+  }
+}

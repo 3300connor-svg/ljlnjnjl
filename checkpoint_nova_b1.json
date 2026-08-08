@@ -1,0 +1,122 @@
+{
+  "002_mirror_gym_sportsbra_smirk.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b1\\002_mirror_gym_sportsbra_smirk.jpg",
+    "duration_s": 30.7,
+    "filename": "002_mirror_gym_sportsbra_smirk.jpg",
+    "metadata": {
+      "type": "mirror",
+      "location": "gym",
+      "outfit": "sports bra+leggings",
+      "emotion": "smirk"
+    }
+  },
+  "003_selfie_cafe_linen_puffedcheeks.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b1\\003_selfie_cafe_linen_puffedcheeks.jpg",
+    "duration_s": 36.4,
+    "filename": "003_selfie_cafe_linen_puffedcheeks.jpg",
+    "metadata": {
+      "type": "selfie",
+      "location": "cafe",
+      "outfit": "linen co-ord",
+      "emotion": "puffed cheeks"
+    }
+  },
+  "001_selfie_bedroom_hoodie_lipbite.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b1\\001_selfie_bedroom_hoodie_lipbite.jpg",
+    "duration_s": 37.0,
+    "filename": "001_selfie_bedroom_hoodie_lipbite.jpg",
+    "metadata": {
+      "type": "selfie",
+      "location": "bedroom",
+      "outfit": "hoodie+biker shorts",
+      "emotion": "lip bite"
+    }
+  },
+  "005_selfie_car_whitetee_closedeyegrin.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b1\\005_selfie_car_whitetee_closedeyegrin.jpg",
+    "duration_s": 37.6,
+    "filename": "005_selfie_car_whitetee_closedeyegrin.jpg",
+    "metadata": {
+      "type": "selfie",
+      "location": "car",
+      "outfit": "white tee+jeans",
+      "emotion": "closed-eye grin"
+    }
+  },
+  "004_mirror_mall_bodycon_raisedbrow.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b1\\004_mirror_mall_bodycon_raisedbrow.jpg",
+    "duration_s": 52.9,
+    "filename": "004_mirror_mall_bodycon_raisedbrow.jpg",
+    "metadata": {
+      "type": "mirror",
+      "location": "mall",
+      "outfit": "bodycon mini dress",
+      "emotion": "raised brow"
+    }
+  },
+  "006_mirror_gym_dustyrose_playfulsquint.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b1\\006_mirror_gym_dustyrose_playfulsquint.jpg",
+    "duration_s": 28.3,
+    "filename": "006_mirror_gym_dustyrose_playfulsquint.jpg",
+    "metadata": {
+      "type": "mirror",
+      "location": "gym",
+      "outfit": "sports bra+leggings dusty rose",
+      "emotion": "playful squint"
+    }
+  },
+  "007_selfie_beach_bikini_tongueout.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b1\\007_selfie_beach_bikini_tongueout.jpg",
+    "duration_s": 24.1,
+    "filename": "007_selfie_beach_bikini_tongueout.jpg",
+    "metadata": {
+      "type": "selfie",
+      "location": "beach",
+      "outfit": "bikini top+denim shorts",
+      "emotion": "tongue out"
+    }
+  },
+  "009_selfie_street_blazer_surprisedO.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b1\\009_selfie_street_blazer_surprisedO.jpg",
+    "duration_s": 29.1,
+    "filename": "009_selfie_street_blazer_surprisedO.jpg",
+    "metadata": {
+      "type": "selfie",
+      "location": "city street",
+      "outfit": "crop blazer+trousers",
+      "emotion": "surprised O-mouth"
+    }
+  },
+  "008_mirror_bedroom_slipDress_pouty.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b1\\008_mirror_bedroom_slipDress_pouty.jpg",
+    "duration_s": 47.3,
+    "filename": "008_mirror_bedroom_slipDress_pouty.jpg",
+    "metadata": {
+      "type": "mirror",
+      "location": "bedroom",
+      "outfit": "silk slip dress",
+      "emotion": "pouty face"
+    }
+  },
+  "010_mirror_bathroom_strapTop_shyglance.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b1\\010_mirror_bathroom_strapTop_shyglance.jpg",
+    "duration_s": 34.7,
+    "filename": "010_mirror_bathroom_strapTop_shyglance.jpg",
+    "metadata": {
+      "type": "mirror",
+      "location": "bathroom",
+      "outfit": "strappy top+dark jeans",
+      "emotion": "shy glance down"
+    }
+  }
+}

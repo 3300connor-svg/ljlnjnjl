@@ -1,0 +1,112 @@
+{
+  "005_car_bronco_passenger.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b5\\005_car_bronco_passenger.jpg",
+    "duration_s": 22.5,
+    "filename": "005_car_bronco_passenger.jpg",
+    "metadata": {
+      "type": "third-party",
+      "location": "Ford Bronco"
+    }
+  },
+  "004a_mirror_boutique_bodycon.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b5\\004a_mirror_boutique_bodycon.jpg",
+    "duration_s": 23.8,
+    "filename": "004a_mirror_boutique_bodycon.jpg",
+    "metadata": {
+      "type": "mirror",
+      "location": "boutique"
+    }
+  },
+  "001_selfie_bedroom_hoodie.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b5\\001_selfie_bedroom_hoodie.jpg",
+    "duration_s": 29.8,
+    "filename": "001_selfie_bedroom_hoodie.jpg",
+    "metadata": {
+      "type": "selfie",
+      "location": "bedroom"
+    }
+  },
+  "003_cafe_homework_dark.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b5\\003_cafe_homework_dark.jpg",
+    "duration_s": 34.2,
+    "filename": "003_cafe_homework_dark.jpg",
+    "metadata": {
+      "type": "third-party",
+      "location": "cafe"
+    }
+  },
+  "004b_mirror_mall_bodycon.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b5\\004b_mirror_mall_bodycon.jpg",
+    "duration_s": 40.4,
+    "filename": "004b_mirror_mall_bodycon.jpg",
+    "metadata": {
+      "type": "mirror",
+      "location": "mall"
+    }
+  },
+  "006_mirror_gym_dustyrose_ass.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b5\\006_mirror_gym_dustyrose_ass.jpg",
+    "duration_s": 23.1,
+    "filename": "006_mirror_gym_dustyrose_ass.jpg",
+    "metadata": {
+      "type": "mirror",
+      "location": "gym"
+    }
+  },
+  "010_mirror_bathroom_coral.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b5\\010_mirror_bathroom_coral.jpg",
+    "duration_s": 29.2,
+    "filename": "010_mirror_bathroom_coral.jpg",
+    "metadata": {
+      "type": "mirror",
+      "location": "bathroom"
+    }
+  },
+  "007_beach_tide_tongueout.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b5\\007_beach_tide_tongueout.jpg",
+    "duration_s": 38.2,
+    "filename": "007_beach_tide_tongueout.jpg",
+    "metadata": {
+      "type": "third-party",
+      "location": "beach"
+    }
+  },
+  "011_bed_overhead_pouty.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b5\\011_bed_overhead_pouty.jpg",
+    "duration_s": 33.9,
+    "filename": "011_bed_overhead_pouty.jpg",
+    "metadata": {
+      "type": "selfie-overhead",
+      "location": "bedroom"
+    }
+  },
+  "013_coastal_restaurant_night.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b5\\013_coastal_restaurant_night.jpg",
+    "duration_s": 29.4,
+    "filename": "013_coastal_restaurant_night.jpg",
+    "metadata": {
+      "type": "third-party",
+      "location": "coastal restaurant"
+    }
+  },
+  "014_beach_bonfire_night.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b5\\014_beach_bonfire_night.jpg",
+    "duration_s": 29.1,
+    "filename": "014_beach_bonfire_night.jpg",
+    "metadata": {
+      "type": "third-party",
+      "location": "beach bonfire"
+    }
+  }
+}

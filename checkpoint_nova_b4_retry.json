@@ -1,0 +1,12 @@
+{
+  "008_mirror_bedroom_slip_forward.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b4\\008_mirror_bedroom_slip_forward.jpg",
+    "duration_s": 19.6,
+    "filename": "008_mirror_bedroom_slip_forward.jpg",
+    "metadata": {
+      "type": "mirror",
+      "location": "bedroom"
+    }
+  }
+}

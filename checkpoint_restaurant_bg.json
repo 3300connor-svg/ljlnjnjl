@@ -1,0 +1,11 @@
+{
+  "009_restaurant_bg_filled.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\restaurant_edit\\009_restaurant_bg_filled.jpg",
+    "duration_s": 34.7,
+    "filename": "009_restaurant_bg_filled.jpg",
+    "metadata": {
+      "type": "restaurant-bg-fill"
+    }
+  }
+}

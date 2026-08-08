@@ -1,0 +1,5 @@
+requests>=2.31.0
+yt-dlp>=2024.1.1
+anthropic>=0.34.0
+SpeechRecognition>=3.10.0
+pyaudio>=0.2.14

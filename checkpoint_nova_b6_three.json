@@ -1,0 +1,32 @@
+{
+  "008_blacks_beach_prone_behind.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b6_three\\008_blacks_beach_prone_behind.jpg",
+    "duration_s": 46.3,
+    "filename": "008_blacks_beach_prone_behind.jpg",
+    "metadata": {
+      "type": "candid-prone-behind",
+      "location": "Blacks Beach prone from behind"
+    }
+  },
+  "007_blacks_beach_prone_smile.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b6_three\\007_blacks_beach_prone_smile.jpg",
+    "duration_s": 50.5,
+    "filename": "007_blacks_beach_prone_smile.jpg",
+    "metadata": {
+      "type": "candid-prone-smile",
+      "location": "Blacks Beach prone smile"
+    }
+  },
+  "006_blacks_beach_bend_board.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b6_three\\006_blacks_beach_bend_board.jpg",
+    "duration_s": 67.3,
+    "filename": "006_blacks_beach_bend_board.jpg",
+    "metadata": {
+      "type": "candid-behind-bend",
+      "location": "Blacks Beach surfboard pickup"
+    }
+  }
+}

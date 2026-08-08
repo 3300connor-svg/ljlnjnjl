@@ -1,0 +1,102 @@
+{
+  "004_blacks_beach_nude.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b6\\004_blacks_beach_nude.jpg",
+    "duration_s": 33.8,
+    "filename": "004_blacks_beach_nude.jpg",
+    "metadata": {
+      "type": "candid",
+      "location": "Blacks Beach San Diego"
+    }
+  },
+  "003_beach_surfboard.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b6\\003_beach_surfboard.jpg",
+    "duration_s": 34.4,
+    "filename": "003_beach_surfboard.jpg",
+    "metadata": {
+      "type": "candid",
+      "location": "beach with surfboard"
+    }
+  },
+  "001_cafe_reading_ambient.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b6\\001_cafe_reading_ambient.jpg",
+    "duration_s": 34.6,
+    "filename": "001_cafe_reading_ambient.jpg",
+    "metadata": {
+      "type": "candid",
+      "location": "cafe"
+    }
+  },
+  "002_beach_selfie_tongueout.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b6\\002_beach_selfie_tongueout.jpg",
+    "duration_s": 34.9,
+    "filename": "002_beach_selfie_tongueout.jpg",
+    "metadata": {
+      "type": "selfie",
+      "location": "beach"
+    }
+  },
+  "005_bed_selfie_morning.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b6\\005_bed_selfie_morning.jpg",
+    "duration_s": 39.7,
+    "filename": "005_bed_selfie_morning.jpg",
+    "metadata": {
+      "type": "selfie",
+      "location": "bedroom"
+    }
+  },
+  "008_outdoor_green_dress.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b6\\008_outdoor_green_dress.jpg",
+    "duration_s": 28.4,
+    "filename": "008_outdoor_green_dress.jpg",
+    "metadata": {
+      "type": "candid",
+      "location": "outdoor"
+    }
+  },
+  "006_gym_candid_mauve.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b6\\006_gym_candid_mauve.jpg",
+    "duration_s": 34.8,
+    "filename": "006_gym_candid_mauve.jpg",
+    "metadata": {
+      "type": "candid",
+      "location": "gym"
+    }
+  },
+  "007_outdoor_figure_coral.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b6\\007_outdoor_figure_coral.jpg",
+    "duration_s": 34.2,
+    "filename": "007_outdoor_figure_coral.jpg",
+    "metadata": {
+      "type": "candid",
+      "location": "outdoor sidewalk"
+    }
+  },
+  "010_bonfire_concrete_night.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b6\\010_bonfire_concrete_night.jpg",
+    "duration_s": 40.4,
+    "filename": "010_bonfire_concrete_night.jpg",
+    "metadata": {
+      "type": "candid",
+      "location": "beach bonfire San Diego"
+    }
+  },
+  "009_restaurant_night_coastal.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b6\\009_restaurant_night_coastal.jpg",
+    "duration_s": 49.3,
+    "filename": "009_restaurant_night_coastal.jpg",
+    "metadata": {
+      "type": "candid",
+      "location": "coastal restaurant night"
+    }
+  }
+}

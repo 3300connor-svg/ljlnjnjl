@@ -1,0 +1,29 @@
+{
+  "008_blacks_beach_prone_behind_v2.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b6_three_v2\\008_blacks_beach_prone_behind_v2.jpg",
+    "duration_s": 34.4,
+    "filename": "008_blacks_beach_prone_behind_v2.jpg",
+    "metadata": {
+      "type": "candid-prone-behind-v2"
+    }
+  },
+  "006_blacks_beach_bend_board_v2.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b6_three_v2\\006_blacks_beach_bend_board_v2.jpg",
+    "duration_s": 40.0,
+    "filename": "006_blacks_beach_bend_board_v2.jpg",
+    "metadata": {
+      "type": "candid-behind-bend-v2"
+    }
+  },
+  "007_blacks_beach_prone_smile_v2.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b6_three_v2\\007_blacks_beach_prone_smile_v2.jpg",
+    "duration_s": 45.2,
+    "filename": "007_blacks_beach_prone_smile_v2.jpg",
+    "metadata": {
+      "type": "candid-prone-smile-v2"
+    }
+  }
+}

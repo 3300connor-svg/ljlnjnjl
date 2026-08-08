@@ -1,0 +1,135 @@
+{
+  "003_cafe_candid_homework_dark.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b2\\003_cafe_candid_homework_dark.jpg",
+    "duration_s": 30.4,
+    "filename": "003_cafe_candid_homework_dark.jpg",
+    "metadata": {
+      "type": "third-party",
+      "location": "cafe",
+      "outfit": "ribbed white tank"
+    }
+  },
+  "002_mirror_gym_premium_smile.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b2\\002_mirror_gym_premium_smile.jpg",
+    "duration_s": 30.5,
+    "filename": "002_mirror_gym_premium_smile.jpg",
+    "metadata": {
+      "type": "mirror",
+      "location": "premium gym",
+      "outfit": "thin sports bra+leggings"
+    }
+  },
+  "005_car_candid_passenger_cleavage.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b2\\005_car_candid_passenger_cleavage.jpg",
+    "duration_s": 34.9,
+    "filename": "005_car_candid_passenger_cleavage.jpg",
+    "metadata": {
+      "type": "third-party",
+      "location": "car passenger",
+      "outfit": "low-cut white tee"
+    }
+  },
+  "007_beach_bikini_alive_laughing.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b2\\007_beach_bikini_alive_laughing.jpg",
+    "duration_s": 17.3,
+    "filename": "007_beach_bikini_alive_laughing.jpg",
+    "metadata": {
+      "type": "third-party",
+      "location": "beach",
+      "outfit": "colorful string bikini"
+    }
+  },
+  "008_mirror_bedroom_slipDress_ass.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b2\\008_mirror_bedroom_slipDress_ass.jpg",
+    "duration_s": 23.4,
+    "filename": "008_mirror_bedroom_slipDress_ass.jpg",
+    "metadata": {
+      "type": "mirror",
+      "location": "bedroom",
+      "outfit": "champagne silk slip dress"
+    }
+  },
+  "006_mirror_gym_dustyrose_ass.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b2\\006_mirror_gym_dustyrose_ass.jpg",
+    "duration_s": 28.4,
+    "filename": "006_mirror_gym_dustyrose_ass.jpg",
+    "metadata": {
+      "type": "mirror",
+      "location": "gym",
+      "outfit": "dusty rose sports bra+leggings"
+    }
+  },
+  "009_wendys_candid_ass_inline.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b2\\009_wendys_candid_ass_inline.jpg",
+    "duration_s": 23.9,
+    "filename": "009_wendys_candid_ass_inline.jpg",
+    "metadata": {
+      "type": "third-party-behind",
+      "location": "Wendy's",
+      "outfit": "tight jeans+cropped top"
+    }
+  },
+  "011_pinterest_bed_selfie_cleavage.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b2\\011_pinterest_bed_selfie_cleavage.jpg",
+    "duration_s": 24.7,
+    "filename": "011_pinterest_bed_selfie_cleavage.jpg",
+    "metadata": {
+      "type": "selfie",
+      "location": "bedroom",
+      "outfit": "low-cut crop top"
+    }
+  },
+  "001_selfie_bedroom_hoodie_sexy.jpg": {
+    "ok": false,
+    "error_code": "generation_failed",
+    "error_message": "Failed to download the generated output. Please try again.",
+    "duration_s": 88.9,
+    "filename": "001_selfie_bedroom_hoodie_sexy.jpg",
+    "metadata": {
+      "type": "selfie",
+      "location": "bedroom",
+      "outfit": "cropped hoodie+biker shorts"
+    }
+  },
+  "012_selfie_car_night_tired.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b2\\012_selfie_car_night_tired.jpg",
+    "duration_s": 28.7,
+    "filename": "012_selfie_car_night_tired.jpg",
+    "metadata": {
+      "type": "selfie",
+      "location": "car night",
+      "outfit": "loose top no bra"
+    }
+  },
+  "010_mirror_bathroom_coral_ass.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b2\\010_mirror_bathroom_coral_ass.jpg",
+    "duration_s": 51.1,
+    "filename": "010_mirror_bathroom_coral_ass.jpg",
+    "metadata": {
+      "type": "mirror",
+      "location": "bathroom",
+      "outfit": "coral mini skirt+white crop top"
+    }
+  },
+  "004_mirror_boutique_bodycon_natural.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b2\\004_mirror_boutique_bodycon_natural.jpg",
+    "duration_s": 118.0,
+    "filename": "004_mirror_boutique_bodycon_natural.jpg",
+    "metadata": {
+      "type": "mirror",
+      "location": "boutique fitting room",
+      "outfit": "emerald satin bodycon"
+    }
+  }
+}

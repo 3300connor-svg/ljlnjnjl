@@ -1,0 +1,13 @@
+{
+  "001_selfie_bedroom_hoodie_sexy.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b2\\001_selfie_bedroom_hoodie_sexy.jpg",
+    "duration_s": 20.1,
+    "filename": "001_selfie_bedroom_hoodie_sexy.jpg",
+    "metadata": {
+      "type": "selfie",
+      "location": "bedroom",
+      "outfit": "cropped hoodie+biker shorts"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "007_beach_standing_cute_smile.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b4\\007_beach_standing_cute_smile.jpg",
+    "duration_s": 26.1,
+    "filename": "007_beach_standing_cute_smile.jpg",
+    "metadata": {
+      "type": "third-party",
+      "location": "beach"
+    }
+  },
+  "001_selfie_hoodie_grey_boxers.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b4\\001_selfie_hoodie_grey_boxers.jpg",
+    "duration_s": 30.6,
+    "filename": "001_selfie_hoodie_grey_boxers.jpg",
+    "metadata": {
+      "type": "selfie",
+      "location": "bedroom"
+    }
+  },
+  "011_bed_overhead_cleavage.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b4\\011_bed_overhead_cleavage.jpg",
+    "duration_s": 31.6,
+    "filename": "011_bed_overhead_cleavage.jpg",
+    "metadata": {
+      "type": "selfie-overhead",
+      "location": "bedroom"
+    }
+  },
+  "009_wendys_candid_sharp.jpg": {
+    "ok": true,
+    "output_path": "C:\\Users\\pheno\\Downloads\\wavespeed-batch-api\\outputs\\nova_b4\\009_wendys_candid_sharp.jpg",
+    "duration_s": 112.4,
+    "filename": "009_wendys_candid_sharp.jpg",
+    "metadata": {
+      "type": "candid",
+      "location": "Wendys"
+    }
+  },
+  "008_mirror_bedroom_slip_forward.jpg": {
+    "ok": false,
+    "error_code": "generation_failed",
+    "error_message": "Failed to download the generated output. Please try again.",
+    "duration_s": 130.6,
+    "filename": "008_mirror_bedroom_slip_forward.jpg",
+    "metadata": {
+      "type": "mirror",
+      "location": "bedroom"
+    }
+  }
+}
