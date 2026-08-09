@@ -1,8 +1,8 @@
 """
-trending_fetcher.py — Fetch top 50 trending TikTok/Reels sounds and cache locally.
+trending_fetcher.py — Fetch top 50 trending songs and cache locally.
 
-Source: TikTok Creative Center trending music API (no auth required).
-Falls back to YouTube search + yt-dlp download if direct TikTok audio fails.
+Source: iTunes Top Songs RSS feed (no auth required).
+Falls back to YouTube search + yt-dlp download if a TikTok URL isn't available.
 Cache refreshes every 24h automatically.
 """
 

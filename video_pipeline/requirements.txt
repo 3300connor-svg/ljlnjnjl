@@ -3,3 +3,7 @@ yt-dlp>=2024.1.1
 anthropic>=0.34.0
 SpeechRecognition>=3.10.0
 pyaudio>=0.2.14
+opencv-python>=4.9.0
+numpy>=1.26.0
+Pillow>=10.0.0
+playwright>=1.42.0

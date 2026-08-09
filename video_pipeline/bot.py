@@ -803,6 +803,7 @@ def _process_single(url: str):
             raw_path = download_video(url, raw_path, progress_cb=lambda m: edit_message(msg_id, f"⬇️ {m}")) or raw_path
         except Exception as e:
             edit_message(msg_id, f"❌ Download failed: {str(e)[:300]}")
+            Path(raw_path).unlink(missing_ok=True)
             return
 
         if cancel_event.is_set():

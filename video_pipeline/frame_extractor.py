@@ -143,29 +143,28 @@ def extract_best_frame(video_path: str, output_path: str, n_candidates: int = 36
 
     duration = _get_duration(video_path)
     margin   = duration * 0.05
-    usable   = duration - 2 * margin
+    usable   = max(duration - 2 * margin, 0.1)
 
     if n_candidates < 2:
         n_candidates = 2
-    timestamps = [
-        margin + usable * i / (n_candidates - 1)
-        for i in range(n_candidates)
-    ]
+    fps = n_candidates / usable
 
     best_score = -1.0
     best_src   = None
 
     with tempfile.TemporaryDirectory() as tmp:
-        for i, ts in enumerate(timestamps):
-            frame_path = os.path.join(tmp, f"frame_{i:03d}.jpg")
-            subprocess.run(
-                ["ffmpeg", "-y", "-ss", f"{ts:.3f}", "-i", video_path,
-                 "-frames:v", "1", "-q:v", "2", frame_path],
-                capture_output=True,
-            )
-            if not os.path.exists(frame_path):
-                continue
-            score = _score_frame(frame_path)
+        # Single ffmpeg pass samples all candidates at once instead of
+        # spawning one subprocess per timestamp.
+        pattern = os.path.join(tmp, "frame_%04d.jpg")
+        subprocess.run(
+            ["ffmpeg", "-y", "-ss", f"{margin:.3f}", "-i", video_path,
+             "-t", f"{usable:.3f}", "-vf", f"fps={fps:.6f}",
+             "-q:v", "2", pattern],
+            capture_output=True,
+        )
+
+        for frame_path in sorted(Path(tmp).glob("frame_*.jpg")):
+            score = _score_frame(str(frame_path))
             if score > best_score:
                 best_score = score
                 best_src   = frame_path
