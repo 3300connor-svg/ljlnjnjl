@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs
+*.log
+bot_log.txt
+fastdl_debug.log
+
+# Runtime output dirs
+outputs/
+temp/
+trending_audio/
+
+# Environment / secrets
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
