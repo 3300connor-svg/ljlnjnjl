@@ -25,7 +25,7 @@ from pathlib import Path
 _CASCADE_FRONT   = str(Path(__file__).parent / "haarcascade_frontalface_default.xml")
 _CASCADE_PROFILE = str(Path(__file__).parent / "haarcascade_profileface.xml")
 
-# Mean inter-frame pixel delta thresholds (0-255 scale, measured on 160x90 grey)
+# Mean inter-frame pixel delta thresholds (0–255 scale, measured on 160×90 grey)
 _MOTION_HIGH = 18.0   # above → significant camera movement → video
 _MOTION_MID  = 8.0    # above → moderate movement (used as tiebreaker)
 
@@ -79,13 +79,13 @@ def analyze_orientation(video_path: str) -> dict:
     Return value:
       {
         "recommendation": "image" | "video",
-        "reasons": [str, ...],
+        "reasons": [str, ...],        # plain-language explanations, first is shown in UI
         "signals": {
           "duration_s":          float,
-          "frontal_face_ratio":  float,
-          "profile_only_ratio":  float,
-          "mean_motion":         float,
-          "mean_face_area_ratio": float,
+          "frontal_face_ratio":  float,  # fraction of sampled frames with frontal face
+          "profile_only_ratio":  float,  # fraction with profile hit but no frontal
+          "mean_motion":         float,  # mean inter-frame pixel delta
+          "mean_face_area_ratio": float, # mean face-area / frame-area
         }
       }
     """
@@ -101,6 +101,7 @@ def analyze_orientation(video_path: str) -> dict:
     def _ret(rec: str) -> dict:
         return {"recommendation": rec, "reasons": reasons, "signals": signals}
 
+    # ── 1. Duration ───────────────────────────────────────────────────────────
     duration = _get_duration(video_path)
     signals["duration_s"] = round(duration, 2)
 
@@ -111,6 +112,7 @@ def analyze_orientation(video_path: str) -> dict:
         )
         return _ret("image")
 
+    # ── 2. Sample frames ──────────────────────────────────────────────────────
     frames = _sample_frames(video_path, duration, _N_SAMPLES)
 
     if not frames:
@@ -171,6 +173,7 @@ def analyze_orientation(video_path: str) -> dict:
         signals["profile_only_ratio"]   = round(profile_ratio, 3)
         signals["mean_face_area_ratio"] = round(mean_face_area, 4)
 
+        # ── Inter-frame motion (optical-flow proxy) ───────────────────────────
         deltas: list[float] = []
         for i in range(1, len(frames)):
             a = cv2.cvtColor(cv2.resize(frames[i - 1], (160, 90)), cv2.COLOR_BGR2GRAY)
@@ -184,15 +187,21 @@ def analyze_orientation(video_path: str) -> dict:
         reasons.append(f"frame analysis error ({e}) — defaulting to image")
         return _ret("image")
 
+    # ── Decision tree ─────────────────────────────────────────────────────────
+
+    # Signal 2: Heavy camera movement → video orientation tracks the shot
     if mean_motion > _MOTION_HIGH:
         reasons.append(
             f"high camera movement (inter-frame delta {mean_motion:.1f}, threshold {_MOTION_HIGH}) "
             "— video orientation follows the shot"
         )
         if profile_ratio > frontal_ratio:
-            reasons.append(f"subject also angled/profile in {profile_ratio*100:.0f}% of frames")
+            reasons.append(
+                f"subject also angled/profile in {profile_ratio*100:.0f}% of frames"
+            )
         return _ret("video")
 
+    # Signal 3: Profile-dominant without heavy motion → angled subject
     if profile_ratio >= _PROFILE_MIN and profile_ratio > frontal_ratio:
         reasons.append(
             f"subject appears angled or profile in {profile_ratio*100:.0f}% of frames "
@@ -201,6 +210,7 @@ def analyze_orientation(video_path: str) -> dict:
         )
         return _ret("video")
 
+    # Signal 4: Clear frontal dominance → image orientation
     if frontal_ratio >= _FRONTAL_MIN:
         motion_note = (
             f", low camera movement (delta {mean_motion:.1f})"
@@ -212,6 +222,7 @@ def analyze_orientation(video_path: str) -> dict:
         )
         return _ret("image")
 
+    # Signal 5: Moderate motion, no clear face signal
     if mean_motion > _MOTION_MID:
         reasons.append(
             f"moderate camera movement (delta {mean_motion:.1f}) with no clear face orientation "
@@ -219,6 +230,7 @@ def analyze_orientation(video_path: str) -> dict:
         )
         return _ret("video")
 
+    # Signal 6: Fallback
     reasons.append(
         f"low motion (delta {mean_motion:.1f}), no strong pose signal "
         "— defaulting to image (safe choice for front-facing Instagram content)"
