@@ -410,6 +410,18 @@ def _run_pipeline(local_path: str, label: str, cancel_event: threading.Event, so
     except Exception:
         duration = 0.0
 
+    # Analyze raw video to recommend Kling orientation before anything is uploaded
+    _orientation         = "image"
+    _orientation_reasons = ["defaulting to image (front-facing safe default)"]
+    try:
+        from kling_orientation_analyzer import analyze_orientation as _analyze_orientation
+        _orient_result       = _analyze_orientation(local_path)
+        _orientation         = _orient_result["recommendation"]
+        _orientation_reasons = _orient_result["reasons"]
+        print(f"[pipeline] orientation={_orientation!r}  signals={_orient_result['signals']}")
+    except Exception as _oe:
+        print(f"[pipeline] orientation analysis failed: {_oe}")
+
     try:
         # ── Step 1: Extract best frame (face priority) ────────────────────────
         _check()
@@ -627,11 +639,14 @@ def _run_pipeline(local_path: str, label: str, cancel_event: threading.Event, so
         except Exception:
             pass
 
+        _orient_icon   = "🖼" if _orientation == "image" else "🎞"
+        _orient_reason = _orientation_reasons[0] if _orientation_reasons else ""
         send_with_kb(
             f"🎬 Kling 3.0 Motion Control\n\n"
             f"🖼  Image: face + hair swap\n"
             f"🎥  Video: {label[:40]}{' ✂️' if was_trimmed else ''}  ·  {actual_dur:.1f}s\n"
             f"⚡  Standard: {_std_cost}   🔥 Pro: {_pro_cost}   Balance: {bal_str}\n"
+            f"{_orient_icon}  Orientation: {_orientation.upper()} — {_orient_reason}\n"
             f"🔊  Sound: preserved  ·  Mode: motion control"
             f"{virality_preview}",
             _KB_KLING_TIER,
@@ -661,7 +676,7 @@ def _run_pipeline(local_path: str, label: str, cancel_event: threading.Event, so
                         swap_ws_url,
                         video_ws_url,
                         out_path,
-                        orientation="video",
+                        orientation=_orientation,
                         keep_sound=True,
                         prompt=kling_prompt,
                         progress_cb=lambda m: edit_message(msg_id, f"⏳ {m}"),
@@ -674,11 +689,12 @@ def _run_pipeline(local_path: str, label: str, cancel_event: threading.Event, so
                     raise _PipelineCancelled()
 
         # Actual cost from balance delta
-        bal_after   = _get_balance()
-        actual_spend = (
+        bal_after      = _get_balance()
+        _fallback_cost = _std_cost if tier_label == "Standard" else _pro_cost
+        actual_spend   = (
             f"${bal_before - bal_after:.4f}"
             if bal_before >= 0 and bal_after >= 0
-            else actual_cost
+            else _fallback_cost
         )
 
         # ── Step 7: Trending audio pick ───────────────────────────────────────
